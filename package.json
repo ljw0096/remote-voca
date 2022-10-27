@@ -1,0 +1,24 @@
+{
+  "name": "remote-voca",
+  "version": "1.0.0",
+  "description": "원격 영단어 테스트 애플리케이션",
+  "main": "index.js",
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "client": "yarn workspace client start",
+    "server": "yarn workspace server start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ljw0096/remote-voca.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ljw0096/remote-voca/issues"
+  },
+  "homepage": "https://github.com/ljw0096/remote-voca#readme"
+}
