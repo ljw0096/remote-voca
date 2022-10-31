@@ -1,7 +1,7 @@
 import { ThemeProvider } from "styled-components"
-import { theme } from "../style/Theme"
-import GlobalStyle from "../style/GlobalStyle"
-import Button from "./components/Button"
+import { theme } from "@style/Theme"
+import GlobalStyle from "@style/GlobalStyle"
+import Button from "@components/Button"
 
 const App = () => {
   return (
