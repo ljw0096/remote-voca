@@ -8,8 +8,8 @@
     "server"
   ],
   "scripts": {
-    "client": "yarn workspace client start",
-    "server": "yarn workspace server start"
+    "client": "cd client && npm run dev",
+    "server": "npm workspace server start"
   },
   "repository": {
     "type": "git",
