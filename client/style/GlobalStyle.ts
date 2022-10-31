@@ -10,7 +10,8 @@ const GlobalStyle = createGlobalStyle`
 
   body {
     font-family: "Noto Sans", "Arial", sans-serif;
-    line-height: 1.5;
+    background-color: ${({ theme }) => theme.colors.mainBlack};
+    color: ${({ theme }) => theme.colors.mainWhite};
   }
 `
 
