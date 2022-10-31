@@ -24,6 +24,9 @@ module.exports = {
   resolve: {
     extensions: [".tsx", ".ts", ".js"],
   },
+  devServer: {
+    port: 3000,
+  },
   plugins: [
     new HtmlWebpackPlugin({
       template: "./public/index.html",
