@@ -5,6 +5,7 @@ import Button from "@components/Button"
 import Layout from "@components/Layout"
 import { Title } from "@components/Text"
 import Input from "@components/Input"
+import TextBox from "@components/TextBox"
 
 const App = () => {
   return (
@@ -21,6 +22,8 @@ const App = () => {
             Hi
           </Button>
           <Input />
+
+          <TextBox>key: hi</TextBox>
         </Layout>
       </ThemeProvider>
     </>

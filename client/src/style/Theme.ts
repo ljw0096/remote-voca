@@ -3,9 +3,10 @@ import { DefaultTheme } from "styled-components"
 const colors = {
   mainBlack: "#222831",
   mainWhite: "#EEEEEE",
+  lightBlack: "#393E46",
   baseGreen: "#00ADB5",
   lightGreen: "#00D4DE",
-  darkGreen: "#00898F"
+  darkGreen: "#00898F",
 }
 
 const fontSize = {
