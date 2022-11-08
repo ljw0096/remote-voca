@@ -1,10 +1,6 @@
 import styled from "styled-components"
 
-interface Props {
-  size?: "half"
-}
-
-const Input = styled.input<Props>`
+const Input = styled.input<{ size?: "half" }>`
   width: ${({ size }) => (size === "half" ? "140" : "280")}px;
   padding: 4px;
   font-size: ${({ theme }) => theme.fontSize.textLarge}px;
