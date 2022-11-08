@@ -30,4 +30,8 @@ const StyledButton = styled.button<Props>`
   :hover {
     background-color: ${({ theme }) => theme.colors.lightGreen};
   }
+
+  :active {
+    background-color: ${({ theme }) => theme.colors.darkGreen};
+  }
 `

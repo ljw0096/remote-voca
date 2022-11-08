@@ -5,6 +5,7 @@ const colors = {
   mainWhite: "#EEEEEE",
   baseGreen: "#00ADB5",
   lightGreen: "#00D4DE",
+  darkGreen: "#00898F"
 }
 
 const fontSize = {
