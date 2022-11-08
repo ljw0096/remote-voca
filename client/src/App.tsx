@@ -3,7 +3,7 @@ import { theme } from "@style/Theme"
 import GlobalStyle from "@style/GlobalStyle"
 import Button from "@components/Button"
 import Layout from "@components/Layout"
-import Title from "@components/Title"
+import { Title } from "@components/Text"
 
 const App = () => {
   return (
