@@ -4,6 +4,7 @@ import GlobalStyle from "@style/GlobalStyle"
 import Button from "@components/Button"
 import Layout from "@components/Layout"
 import { Title } from "@components/Text"
+import Input from "@components/Input"
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
           >
             Hi
           </Button>
+          <Input />
         </Layout>
       </ThemeProvider>
     </>
