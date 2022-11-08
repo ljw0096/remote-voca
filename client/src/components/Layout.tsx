@@ -19,7 +19,7 @@ const Container = styled.div`
   display: flex;
   justify-content: center;
   width: 100%;
-  height: 720px;
+  height: 100vh;
 `
 
 const Wrapper = styled.div`

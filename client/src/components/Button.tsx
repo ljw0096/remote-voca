@@ -20,10 +20,12 @@ export default Button
 const StyledButton = styled.button<Props>`
   padding: 16px;
   width: ${({ half }) => (half ? "200px" : "400px")};
+  height: 64px;
+  border: none;
   border-radius: 32px;
   background-color: ${({ theme }) => theme.colors.baseGreen};
   color: ${({ theme }) => theme.colors.mainWhite};
-  font-size: ${({ theme }) => theme.fontSize.textLarge};
+  font-size: ${({ theme }) => theme.fontSize.text}px;
   font-weight: 700;
   cursor: pointer;
 
