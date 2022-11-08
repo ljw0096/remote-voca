@@ -27,10 +27,12 @@ module.exports = {
       "@components": path.resolve(__dirname, "./src/components"),
       "@lib": path.resolve(__dirname, "./src/lib"),
       "@style": path.resolve(__dirname, "./src/style"),
+      "@pages": path.resolve(__dirname, "./src/pages"),
     },
   },
   devServer: {
     port: 3000,
+    historyApiFallback: true,
   },
   plugins: [
     new HtmlWebpackPlugin({
