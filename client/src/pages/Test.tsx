@@ -1,7 +1,7 @@
 import Layout from "@components/Layout"
 import Typo from "@components/Typo"
 
-const Home = () => {
+const Test = () => {
   return (
     <Layout>
       <Typo.Title>Test</Typo.Title>
@@ -9,4 +9,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Test

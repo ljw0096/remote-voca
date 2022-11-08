@@ -54,13 +54,13 @@ const Footer = styled.div`
   display: flex;
   justify-content: center;
   position: absolute;
+  margin-bottom: 32px;
   bottom: 0;
 `
 const ButtonContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 0 8px;
+  gap: 16px 8px;
   width: 500px;
-  height: 160px;
 `

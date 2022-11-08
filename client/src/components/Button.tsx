@@ -25,7 +25,7 @@ const StyledButton = styled.button<Props>`
   border-radius: 32px;
   background-color: ${({ theme }) => theme.colors.baseGreen};
   color: ${({ theme }) => theme.colors.mainWhite};
-  font-size: ${({ theme }) => theme.fontSize.text}px;
+  font-size: ${({ theme }) => theme.fontSize.textLarge}px;
   font-weight: 700;
   cursor: pointer;
 

@@ -1,12 +1,14 @@
+import Input from "@components/Input"
 import Layout from "@components/Layout"
+import SubLayout from "@components/SubLayout"
 import Typo from "@components/Typo"
 
-const Home = () => {
+const CreateTest = () => {
   return (
-    <Layout>
-      <Typo.Title>Create Test</Typo.Title>
-    </Layout>
+    <SubLayout subtitleText="How many questions?" buttonText="Next">
+      <Input autoFocus />
+    </SubLayout>
   )
 }
 
-export default Home
+export default CreateTest
