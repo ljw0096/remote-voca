@@ -4,7 +4,7 @@ import styled from "styled-components"
 interface Props {
   half?: boolean
   children: ReactNode
-  onClick: MouseEventHandler<HTMLButtonElement>
+  onClick?: MouseEventHandler<HTMLButtonElement>
 }
 
 const Button = ({ children, onClick, half }: Props) => {

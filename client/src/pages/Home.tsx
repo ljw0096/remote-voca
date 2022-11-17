@@ -1,11 +1,9 @@
 import { Button, Layout, Typo } from "@components/index"
 import styled from "styled-components"
-import { useNavigate } from "react-router-dom"
-import { paths, routes } from "@lib/router/routes"
+import { Link } from "react-router-dom"
+import { paths } from "@lib/router/routes"
 
 const Home = () => {
-  const navigate = useNavigate()
-
   return (
     <Layout>
       <Header>
@@ -13,29 +11,15 @@ const Home = () => {
       </Header>
       <Footer>
         <ButtonContainer>
-          <Button
-            onClick={() => {
-              navigate(paths.CREATE_TEST_PATH)
-            }}
-            half={true}
-          >
-            Create Test
-          </Button>
-          <Button
-            onClick={() => {
-              navigate(paths.RESULT_PATH)
-            }}
-            half={true}
-          >
-            Result
-          </Button>
-          <Button
-            onClick={() => {
-              navigate(paths.TEST_PATH)
-            }}
-          >
-            Take a Test
-          </Button>
+          <Link to={paths.CREATE_TEST_PATH}>
+            <Button half={true}>Create Test</Button>
+          </Link>
+          <Link to={paths.RESULT_PATH}>
+            <Button half={true}>Result</Button>
+          </Link>
+          <Link to={paths.TEST_PATH}>
+            <Button>Take a Test</Button>
+          </Link>
         </ButtonContainer>
       </Footer>
     </Layout>
