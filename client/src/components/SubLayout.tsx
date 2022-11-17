@@ -7,7 +7,7 @@ interface Props {
   subtitleText: string
   buttonText?: string
   children?: ReactNode
-  onClick?: () => void
+  onClick: () => void
 }
 
 const SubLayout = ({ subtitleText, buttonText, children, onClick }: Props) => {
@@ -23,7 +23,7 @@ const SubLayout = ({ subtitleText, buttonText, children, onClick }: Props) => {
         <Footer>
           <Button
             onClick={() => {
-              onClick
+              onClick()
             }}
           >
             {buttonText}
