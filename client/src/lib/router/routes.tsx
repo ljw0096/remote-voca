@@ -1,3 +1,4 @@
+import CreatePassword from "@pages/CreatePassword"
 import { CreateTest, Home, Result, Test } from "@pages/index"
 
 export const routes = [
@@ -21,6 +22,11 @@ export const routes = [
     path: "/test",
     view: <Test />,
   },
+  {
+    name: "CREATE_PASSWORD",
+    path: "/create-password",
+    view: <CreatePassword />,
+  },
 ]
 
 export const paths = {
@@ -28,4 +34,5 @@ export const paths = {
   CREATE_TEST_PATH: "/create-test",
   RESULT_PATH: "/result",
   TEST_PATH: "/test",
+  CREATE_PASSWORD: "/create-password",
 }
